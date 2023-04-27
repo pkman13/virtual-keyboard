@@ -60,3 +60,30 @@ textarea {
 .space {
     min-width: 325px;
 }
+
+.move {
+
+    height: 25px;
+}
+
+.move :first-child {
+    margin-bottom: 0;
+
+}
+
+.move :last-child {
+    margin-top: 0;
+}
+
+.left,
+.right {
+    margin-top: 30px;
+}
+
+.row-5 {
+    width: 45px;
+}
+
+.command {
+    width: 60px;
+}
