@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
+    margin: 6px;
+}
+
+.row {
+    display: flex;
+}
+
+.keyboard {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
+}
+
+textarea {
+    width: 875px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
+
+}
+
+.delet {
+    min-width: 75px;
+}
+
+.tab {
+    min-width: 75px;
+}
+
+.caps-lock {
+    min-width: 94px;
+}
+
+.enter {
+    min-width: 94px;
+}
+
+.shift {
+    min-width: 125px;
+}
+
+.space {
+    min-width: 325px;
+}
