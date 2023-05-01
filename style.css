@@ -20,7 +20,13 @@ html {
     box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
     margin: 6px;
     background-color: black;
+    cursor: pointer;
 }
+.key:hover {
+    background-color: gray;
+}
+
+
 
 .active {
     background-color: gray;
@@ -35,6 +41,7 @@ span {
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 5px;
     
 }
 
@@ -56,6 +63,7 @@ textarea {
 
 .delet {
     min-width: 75px;
+    
 }
 
 .tab {
@@ -81,6 +89,7 @@ textarea {
 .move {
 
     height: 25px;
+    font-size: 10px;
 }
 
 .move :first-child {
@@ -103,4 +112,27 @@ textarea {
 
 .command {
     width: 60px;
+}
+
+.delet,
+.enter,
+.shift,
+.tab,
+.caps-lock,
+.command,
+.option,
+.row-5 {
+    align-items: flex-end;
+    font-size: 14px;
+    justify-content: flex-start;
+}
+
+.esc {
+    font-size: 14px;
+}
+
+.delet,
+.enter,
+.r {
+    justify-content: end;
 }

@@ -5,7 +5,7 @@ export default `
 <main>
     <section class="keyboard">
         <div class="row">
-            <div class="key" data-code="Backquote"><span>esc</span></div>
+            <div class="key esc" data-code="Backquote"><span>esc</span></div>
             <div class="key" data-code="Digit1"><span>1</span></div>
             <div class="key" data-code="Digit2"><span>2</span></div>
             <div class="key" data-code="Digit3"><span>3</span></div>
@@ -18,7 +18,7 @@ export default `
             <div class="key" data-code="Digit0"><span>0</span></div>
             <div class="key" data-code="Minus"><span>-</span></div>
             <div class="key" data-code="Equal"><span>=</span></div>
-            <div class="key delet" data-code="Backspace"><span>delet</span></div>
+            <div class="key delet" data-code="Backspace"><span>delete</span></div>
         </div>
         <div class="row">
             <div class="key tab" data-code="Tab"><span>tab</span></div>
@@ -63,7 +63,7 @@ export default `
             <div class="key" data-code="Comma"><span>,</span></div>
             <div class="key" data-code="Period"><span>.</span></div>
             <div class="key" data-code="Slash"><span>/</span></div>
-            <div class="key shift" data-code="ShiftRight"><span>shift</span></div>
+            <div class="key shift r" data-code="ShiftRight"><span>shift</span></div>
         </div>
         <div class="row">
             <div class="key row-5" data-code="key"><span>fn</span></div>
