@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
+    margin: 6px;
+    background-color: black;
+    cursor: pointer;
+}
+.key:hover {
+    background-color: gray;
+}
+
+
+
+.active {
+    background-color: gray;
+
+}
+
+.row {
+    display: flex;
+}
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    
+}
+
+
+.keyboard {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
+    background-color: #d4d4d4;
+}
+
+textarea {
+    width: 875px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
+
+}
+
+.delet {
+    min-width: 75px;
+    
+}
+
+.tab {
+    min-width: 75px;
+}
+
+.caps-lock {
+    min-width: 94px;
+}
+
+.enter {
+    min-width: 94px;
+}
+
+.shift {
+    min-width: 125px;
+}
+
+.space {
+    min-width: 325px;
+}
+
+.move {
+
+    height: 25px;
+    font-size: 10px;
+}
+
+.move :first-child {
+    margin-bottom: 0;
+
+}
+
+.move :last-child {
+    margin-top: 0;
+}
+
+.left,
+.right {
+    margin-top: 30px;
+}
+
+.row-5 {
+    width: 45px;
+}
+
+.command {
+    width: 60px;
+}
+
+.delet,
+.enter,
+.shift,
+.tab,
+.caps-lock,
+.command,
+.option,
+.row-5 {
+    align-items: flex-end;
+    font-size: 14px;
+    justify-content: flex-start;
+}
+
+.esc {
+    font-size: 14px;
+}
+
+.delet,
+.enter,
+.r {
+    justify-content: end;
+}
