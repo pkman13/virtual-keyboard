@@ -12,21 +12,33 @@ html {
 }
 
 .key {
+    display: flex;
+    justify-content: center;
     height: 50px;
     width: 50px;
     border-radius: 10px;
     box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
     margin: 6px;
+    background-color: black;
 }
 
 .row {
     display: flex;
 }
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
 
 .keyboard {
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: -3px -3px 5px rgb(63, 63, 63), 3px 3px 5px black;
+    background-color: #d4d4d4;
 }
 
 textarea {
