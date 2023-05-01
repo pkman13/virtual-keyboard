@@ -8,7 +8,29 @@ import keyboardHTML from './js/keybord.js';
 const keyBoard = document.getElementById('virtual_keybord');
 keyBoard.insertAdjacentHTML ('afterbegin', keyboardHTML);
 
+keyBoard.addEventListener('keydown', (e) => {
+    console.log(e)
 
+    const code = e.code;
+    const codeElement = document.querySelector(`[data-code="${e.code}"]`);
+    //codeElement.classList.remove('active');
+    if (codeElement) {
+        codeElement.classList.add('active');
+    }
+
+} )
+
+keyBoard.addEventListener('keyup' , (e) => {
+    console.log(e)
+
+    const code = e.code;
+    const codeElement = document.querySelector(`[data-code="${e.code}"]`);
+    //codeElement.classList.remove('active');
+    if (codeElement) {
+        codeElement.classList.remove('active');
+    }
+
+} )
 
 // window.addEventListener("keydown", function(event) {
 //     const key = event.keyCode;

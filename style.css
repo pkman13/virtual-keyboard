@@ -22,6 +22,11 @@ html {
     background-color: black;
 }
 
+.active {
+    background-color: gray;
+
+}
+
 .row {
     display: flex;
 }
